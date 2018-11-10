@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class a {
-	void execute() {
+static void execute() {
 		// TODO Auto-generated method stub
 		 // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
