@@ -1,16 +1,43 @@
 package tc;
-import acc.AccLogin;
-import steps.Paso;
+import obj.steps.Step;
 
-public class Test_001 implements Paso {
+public class Test_001 implements Step {
 
-	public void main() {
-		
-		
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
 		
 	}
 
-	public void paso01() {}
+	@Override
+	public void info() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void verify() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void select() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void get() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void set() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	
