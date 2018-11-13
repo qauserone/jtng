@@ -1,22 +1,13 @@
 package test.tc;
-import base.obj.Paso;
+import test.paso.PasosFuncionalidadH;
 
 public class Test_001  {
 
 	public static void main(String[] args) {
-		paso1();
-		System.out.println("static void");
+		PasosFuncionalidadH.paso1();
+		System.out.println("Message test Case_001");
 	}
 	
 	
-	public static void paso1() {
-		String name = null;
-		boolean repeat = false;
-		Paso Paso1=new Paso("Paso1", 1, false, 0);
-		Paso1.getName();
-		Paso1.getRepeat();
-		String console = "salida por consola";
-		Paso1.setConsole(console);
-		Paso1.getConsole();
-	}
+
 }

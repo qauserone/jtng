@@ -2,7 +2,7 @@ package base.abst;
 
 import base.interf.Common;
 
-public class Object_report implements Common{
+public abstract class Object_report{
 
 	
 	void GraphicReport(){}

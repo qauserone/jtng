@@ -1,8 +1,10 @@
 package base.abst;
 
-import base.interf.Common;
 
-public class Object_Action implements Common{
+
+public abstract class Object_Action {
+
+	
 	
 	void nombre() {	}
 	void actiontype() {}
@@ -11,22 +13,6 @@ public class Object_Action implements Common{
 	void detail() {}
 	
 	
-	@Override
-	public void tipo() {
-		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void info() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void status() {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

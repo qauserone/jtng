@@ -1,7 +1,12 @@
 package base.obj;
 
-import obj.steps.Step;
+import base.abst.Object_test;
 
-public abstract class Ts implements Step{
+public class Ts extends Object_test{
+
+	public Ts(String name, int id, boolean repeat, int NumRepeat) {
+		super(name, id, repeat, NumRepeat);
+		// TODO Auto-generated constructor stub
+	}
 
 }
