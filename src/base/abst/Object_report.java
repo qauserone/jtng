@@ -1,15 +1,15 @@
-package base.implem;
+package base.abst;
 
 import base.interf.Common;
 
-public class Object_Action implements Common{
+public class Object_report implements Common{
+
 	
-	void nombre() {	}
-	void actiontype() {}
-	void number() {}
-	void id() {}
-	void detail() {}
+	void GraphicReport(){}
+	void SheetReport() {}
+	void MailReport() {}
 	
+		
 	
 	@Override
 	public void tipo() {
@@ -29,4 +29,6 @@ public class Object_Action implements Common{
 		
 	}
 
+	
+	
 }

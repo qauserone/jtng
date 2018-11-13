@@ -1,4 +1,4 @@
-package po;
+package test.po;
 
 public class PoLogin {
 

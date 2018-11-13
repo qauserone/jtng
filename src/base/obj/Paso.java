@@ -1,4 +1,5 @@
-package obj;
+package base.obj;
+import base.abst.Object_test;
 import base.implem.*;
 
 public class Paso extends Object_test{

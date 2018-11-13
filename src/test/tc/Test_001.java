@@ -1,5 +1,5 @@
 package test.tc;
-import obj.Paso;
+import base.obj.Paso;
 
 public class Test_001  {
 

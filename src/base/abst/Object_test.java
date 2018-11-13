@@ -1,4 +1,4 @@
-package base.implem;
+package base.abst;
 import base.interf.Common;
 
 public abstract class Object_test {

@@ -1,4 +1,4 @@
-package acc;
+package test.acc;
 
 public class AccLogin {
 
