@@ -2,12 +2,14 @@ package examples;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 public class a {
 static void execute() {
+
 		// TODO Auto-generated method stub
 		 // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
+//    	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		//comment the above 2 lines and uncomment below 2 lines to use Chrome
 		//System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");

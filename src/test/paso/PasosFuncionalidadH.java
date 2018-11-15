@@ -1,12 +1,14 @@
 package test.paso;
 
 import base.obj.Paso;
+import test.acc.a;;
 
 public class PasosFuncionalidadH {
 	
 	
 	
 	public static void paso1() {
+		
 //		String name = null;
 //		boolean repeat = false;
 		Paso Paso1=new Paso("Paso1", 1, false, 0);
@@ -15,6 +17,8 @@ public class PasosFuncionalidadH {
 		String console = "salida por consola";
 		Paso1.setConsole(console);
 		Paso1.getConsole();
+		a.execute();
+		
 	}
 	
 
