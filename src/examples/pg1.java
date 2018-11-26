@@ -8,7 +8,8 @@ public class pg1 {
 
     public static void main(String[] args) {
         // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
+//    	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
+    	System.setProperty("webdriver.firefox.marionette","/usr/local/bin/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		//comment the above 2 lines and uncomment below 2 lines to use Chrome
 		//System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");

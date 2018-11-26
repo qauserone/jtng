@@ -12,8 +12,8 @@ static void execute() {
 //    	System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		//comment the above 2 lines and uncomment below 2 lines to use Chrome
-		//System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
-		//WebDriver driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
+//		WebDriver driver = new ChromeDriver();
     	
         String baseUrl = "http://demo.guru99.com/test/newtours/";
         String expectedTitle = "Welcome: Mercury Tours";
